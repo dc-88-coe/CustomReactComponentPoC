@@ -8,5 +8,5 @@ if IS_RELEASE:
    _component_func = components.declare_component("rating_stars", path=build_path)
 else:
    _component_func = components.declare_component("rating_stars", url="http://localhost:3001")
-def rating_stars():
+def custom_react_grid():
    _component_func()
